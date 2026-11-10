@@ -1,0 +1,56 @@
+! 
+! problem type definition
+! 
+!Single-Piston   ! Single-Piston
+ICEN   ! Internal Combustion Engine
+SIKN 2   ! Active Chemistry Zones
+TRAN   ! Transient Solver
+! 
+! physical property
+! 
+! START_DURATION   ! Specify Start-Duration
+! WIEBE   ! Use Wiebe Function For Burn Profile
+!4STR   ! Four Stroke
+!No_Gas-Velocity_Correlation   ! No Gas-Velocity Correlation
+!Ratios   ! Length Ratios
+!Use_Ideal_Gas_Law   ! Use Ideal Gas Law
+!Use_Power_Law_for_Viscosity   ! Use Power Law for Viscosity and Thermal Conductivity
+BDUR 45.6   ! Burn Duration (degrees)
+BEFF 1.0   ! Burn Efficiency
+BINI -14.5   ! Start of Combustion (degrees)
+BORE 8.5   ! Bore (cm)
+EQMN 1.0E-14   ! Minimum Species Fraction (mole fraction)
+EQRX   ! Use Equilibrium Product Estimation
+HVAL 0.0   ! Fuel Heating Value (erg/g)
+MLMT 1.0E-6   ! Minimum Zone Mass (g)
+PRES 1.0   ! Pressure (atm)
+QRGEQ   ! Integrate Heat Release by Gas-phase Reactions
+STRK 10.82   ! Stroke (cm)
+TEMP 353.0   ! Temperature (K)
+WBFB 5.0   ! Wiebe Function b
+WBFN 2.0   ! Wiebe Function n
+! 
+! reactor dimension definition
+! 
+CMPR 12.0   ! Engine Compression Ratio
+DEG0 -120.2   ! Starting Crank Angle (ATDC) (degrees)
+DEGE 139.8   ! End of Simulation Crank Angle (degrees)
+LOLR 3.3   ! Connecting Rod to Crank Radius Ratio
+RPM 600.0   ! Engine Speed (rpm)
+! 
+! species property
+! 
+XEST c2h5oh 0.0335362907123   ! Initial Gas Fraction (mole fraction)
+XEST n2 0.7635063303373   ! Initial Gas Fraction (mole fraction)
+XEST o2 0.2029573789504   ! Initial Gas Fraction (mole fraction)
+! 
+! solver control
+! 
+ADAP   ! Save Additional Adaptive Points
+! 
+! output control and other misc. property
+! 
+IEEE_CHECK_USUAL 0   ! Disable Over/Underflow Check
+GFAC 1.0 1   ! Gas Reaction Rate Multiplier
+GFAC 1.0 2   ! Gas Reaction Rate Multiplier
+END

@@ -1,0 +1,56 @@
+{
+  "source": "group11_150_cases.csv",
+  "n_cases": 150,
+  "n_unique_combinations": 150,
+  "parameter_levels": {
+    "rpm": [
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "start_angle_deg": [
+      -15.0,
+      -12.5,
+      -10.0,
+      -7.5,
+      -5.0
+    ],
+    "burn_duration_deg": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0
+    ]
+  },
+  "max_absolute_power_torque_error_pct": 6.0411312851686046e-05,
+  "all_sfc_and_power_positive": true,
+  "observed_metric_ranges": {
+    "torque_Nm": [
+      30.733349999999998,
+      34.99033
+    ],
+    "power_kW": [
+      1.6093140000000001,
+      10.9907
+    ],
+    "sfc_g_per_kWh": [
+      241.31498399999998,
+      274.7403
+    ],
+    "thermal_efficiency_pct": [
+      47.25182,
+      53.796820000000004
+    ]
+  },
+  "compression_ratio": 12.0,
+  "gamma_otto_assumption": 1.4,
+  "ideal_otto_efficiency_pct": 62.98928275128466,
+  "max_simulated_efficiency_pct": 53.796820000000004,
+  "otto_minus_max_chemkin_percentage_points": 9.192462751284658,
+  "solver_convergence_verified": false,
+  "interpretation": "150-case discrete-grid optima, NOT mathematically guaranteed global optima; source solver logs require separate review."
+}

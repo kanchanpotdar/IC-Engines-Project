@@ -1,0 +1,21 @@
+#Ethanol-Air Combustion Mechanism for Group 11 SI Engine Optimization
+#Sun Nov 08 16:05:40 IST 2026
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__Run_Result=PREPROCESS_OK_42
+FIT_TRANSPORT_PROPERTIES=1
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_CHEM_ASC=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air_gas.asc
+IN_SURF_INPUT=
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_SURF_ASC=
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_CHEM_SPECIES=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air_gas.asu
+Chemistry\ Set\ Name=ethanol_air
+IN_THERM_DB=C\:\\Users\\nagin\\chemkin\\group_11_project\\mechanism\\therm.dat
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_CHEM_OUTPUT=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air_gas.out
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_SURF_SPECIES=
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_TRAN_OUTPUT=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air_gtran.out
+IN_LIQUID_DB=
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_XML_PARAMETERS=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air.xml
+SYSTEM_FLAG=FALSE
+IN_TRANS_DB=C\:\\Users\\nagin\\chemkin\\group_11_project\\mechanism\\trans.dat
+IN_CHEM_INPUT=C\:\\Users\\nagin\\chemkin\\group_11_project\\mechanism\\mech.dat
+Chemistry\ Set\ Description=Ethanol-Air Combustion Mechanism for Group 11 SI Engine Optimization
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_SURF_OUTPUT=
+C\:\\Users\\nagin\\chemkin\\group_11_project\\results__OUT_TRAN_ASC=C\:\\Users\\nagin\\chemkin\\group_11_project\\results\\ethanol_air_gtran.asc

@@ -1,0 +1,101 @@
+Execution of Job Resulted in the Following Lines of Output:
+
+
+C:\Users\nagin\chemkin\group_11_project\results>REM Generated Batch Job Command File 
+
+C:\Users\nagin\chemkin\group_11_project\results>REM get the runtime environment defined 
+
+C:\Users\nagin\chemkin\group_11_project\results>CALL "D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\run_chemkin_env_setup.bat" 
+
+C:\Users\nagin\chemkin\group_11_project\results>set CHEMKIN_VERS=25.2 
+
+C:\Users\nagin\chemkin\group_11_project\results>call "D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\run_chemkin_env_setup_part2.bat" 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET REACTION_DIR=D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\..\.. 
+
+C:\Users\nagin\chemkin\group_11_project\results>FOR %i in ("D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\.") do @SET "CHEMKIN_BIN=%~fi" 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET _ROOT_DIR=D:\ANSYS Inc\v252 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET TP_DIR=D:\ANSYS Inc\v252\tp 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET RD_JRE_BIN=D:\ANSYS Inc\v252\tp\openjre\17\bin 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET relinfo_file=D:\ANSYS Inc\v252\commonfiles\globalsettings\relinfo.xml 
+
+C:\Users\nagin\chemkin\group_11_project\results>PUSHD D:\ANSYS Inc\v252\reaction\chemkin.win64\bin 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>FOR /F "tokens=*" %a in ('ReadRelinfoExt.BAT') do set extvers_file=%a 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>set extvers_file=C:\Users\nagin\AppData\Local\Temp\rd_96160784_ext.tmp 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>FOR /F "tokens=*" %a in ('ReadRelinfoInt.BAT') do set intvers_file=%a 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>set intvers_file=C:\Users\nagin\AppData\Local\Temp\rd_10655933_int.tmp 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>FOR /F "usebackq delims==" %g IN (`type "C:\Users\nagin\AppData\Local\Temp\rd_10655933_int.tmp"`) DO set CHEMKIN_INT_VERS=%g 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>set CHEMKIN_INT_VERS=252 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>FOR /F "usebackq delims==" %g IN (`type "C:\Users\nagin\AppData\Local\Temp\rd_96160784_ext.tmp"`) DO set CHEMKIN_VERS=%g 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>set CHEMKIN_VERS=2025 R2 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>DEL /Q C:\Users\nagin\AppData\Local\Temp\rd_10655933_int.tmp C:\Users\nagin\AppData\Local\Temp\rd_96160784_ext.tmp 
+
+D:\ANSYS Inc\v252\reaction\chemkin.win64\bin>POPD
+
+C:\Users\nagin\chemkin\group_11_project\results>SET ZLIB_DIR=D:\ANSYS Inc\v252\tp\zlib\1.2.13\winx64 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET MKL_DIR=D:\ANSYS Inc\v252\tp\IntelMKL\2023.1.0\winx64 
+
+C:\Users\nagin\chemkin\group_11_project\results>set BUILD_DATE_FILE=D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\..\..\chemkin.win64\build_date.txt 
+
+C:\Users\nagin\chemkin\group_11_project\results>set CHEMKIN_TITLE=ANSYS Chemkin 
+
+C:\Users\nagin\chemkin\group_11_project\results>FOR /F "usebackq delims==" %g IN (`type "D:\ANSYS Inc\v252\reaction\chemkin.win64\bin\..\..\chemkin.win64\build_date.txt"`) DO set CHEMKIN_RELEASE_NUMBER=2025 R2 (%g) 
+
+C:\Users\nagin\chemkin\group_11_project\results>set CHEMKIN_RELEASE_NUMBER=2025 R2 (18-May-2025  3:21:56 AM ) 
+
+C:\Users\nagin\chemkin\group_11_project\results>set PATH=D:\ANSYS Inc\v252\reaction\chemkin.win64\bin;D:\ANSYS Inc\v252\tp\IntelCompiler\2023.1.0\winx64;D:\ANSYS Inc\v252\tp\IntelMKL\2023.1.0\winx64;D:\ANSYS Inc\v252\tp\zlib\1.2.13\winx64;D:\ANSYS Inc\v252\reaction\chemkin.win64\bin;D:\ANSYS Inc\v252\tp\IntelCompiler\2023.1.0\winx64;D:\ANSYS Inc\v252\tp\IntelMKL\2023.1.0\winx64;D:\ANSYS Inc\v252\tp\zlib\1.2.13\winx64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\nagin\.local\bin;C:\Users\nagin\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nagin\AppData\Local\Programs\Python\Python313\;C:\Users\nagin\AppData\Local\Programs\Python\Launcher\;C:\Users\nagin\AppData\Local\Microsoft\WindowsApps;C:\Users\nagin\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin 
+
+C:\Users\nagin\chemkin\group_11_project\results>if "xx" == "xx" goto done_userpath 
+
+C:\Users\nagin\chemkin\group_11_project\results>REM cd to the Working Directory for this job 
+
+C:\Users\nagin\chemkin\group_11_project\results>C:   && cd \Users\nagin\chemkin\group_11_project\results 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET MKL_NUM_THREADS=1 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET OMP_NUM_THREADS=1 
+
+C:\Users\nagin\chemkin\group_11_project\results>SET XERCES_DISABLE_DTD=1 
+
+C:\Users\nagin\chemkin\group_11_project\results>REM DELETE ANY INTERMEDIATE FILES LEFTOVER FROM PREVIOUS RUN 
+
+C:\Users\nagin\chemkin\group_11_project\results>IF EXIST "C:\Users\nagin\chemkin\group_11_project\results\XMLdata_project.zip" DEL /F /Q "C:\Users\nagin\chemkin\group_11_project\results\XMLdata_project.zip" 
+
+C:\Users\nagin\chemkin\group_11_project\results>REM COPY FILES TO WORKING DIR 
+
+C:\Users\nagin\chemkin\group_11_project\results>COPY /Y "D:\ANSYS Inc\v252\reaction\chemkin.win64\data\chemkindata.dtd" "C:\Users\nagin\chemkin\group_11_project\results" 
+        1 file(s) copied.
+
+C:\Users\nagin\chemkin\group_11_project\results>REM RUN THE JOB AND CAPTURE EXIT STATUS 
+
+C:\Users\nagin\chemkin\group_11_project\results>CKReactorSparkIgnition -i "C:\Users\nagin\chemkin\group_11_project\results\project.inp" -o "C:\Users\nagin\chemkin\group_11_project\results\project.out" -x "C:\Users\nagin\chemkin\group_11_project\results\XMLdata_project.zip" -m "project.out.mon" -c "C:\Users\nagin\chemkin\group_11_project\results\ethanol_air_gas.asc" -t "C:\Users\nagin\chemkin\group_11_project\results\ethanol_air_gtran.asc" 
+Licenses Released
+
+C:\Users\nagin\chemkin\group_11_project\results>set exit_status=0 
+
+C:\Users\nagin\chemkin\group_11_project\results>if exist CKRUN_ERROR.TXT del /F /Q CKRUN_ERROR.TXT 
+
+C:\Users\nagin\chemkin\group_11_project\results>if exist CKRUN_SUCCESS.TXT del /F /Q CKRUN_SUCCESS.TXT 
+
+C:\Users\nagin\chemkin\group_11_project\results>if 0 GTR 0 echo exit_status=0  1>CKRUN_ERROR.TXT 
+
+C:\Users\nagin\chemkin\group_11_project\results>if 0 EQU 0 echo exit_status=0  1>CKRUN_SUCCESS.TXT 
+
+C:\Users\nagin\chemkin\group_11_project\results>exit 0 
+
+
+

@@ -1,0 +1,8 @@
+C:\Users\nagin\chemkin\group_11_project\results\project_20261109_210241;;null;;ANALYSIS_DIR
+C:\Users\nagin\chemkin\group_11_project\results\ethanol_air.cks;;ethanol_air.cks;;CHEMISTRY_SET
+C:\Users\nagin\chemkin\group_11_project\results\project.inp;;project.inp
+C:\Users\nagin\chemkin\group_11_project\mechanism\therm.dat;;therm.dat;;CHEMISTRY_DATA
+C:\Users\nagin\chemkin\group_11_project\results\ethanol_air.xml;;ethanol_air.xml;;CHEMISTRY_DATA
+C:\Users\nagin\chemkin\group_11_project\mechanism\trans.dat;;trans.dat;;CHEMISTRY_DATA
+C:\Users\nagin\chemkin\group_11_project\mechanism\mech.dat;;mech.dat;;CHEMISTRY_DATA
+C:\Users\nagin\chemkin\group_11_project\results\project_pref.txt;;project_pref.txt

@@ -1,0 +1,12 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+~$*.docx
+~$*.pptx
+*.swp
+*.tmp
+# Superseded report drafts; Group11_Report.docx is canonical.
+Group11_Ethanol_SI_Engine_Technical_Report_Final.docx
+Group11_Ethanol_SI_Engine_Submission_Ready.docx
